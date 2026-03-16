@@ -10,7 +10,11 @@ The projects in this repository cover a wide spectrum of Deep Learning concepts,
 
 - **Framework**: [PyTorch](https://pytorch.org/) and maybe [TensorFlow](https://www.tensorflow.org/) later
 - **Libraries**: NumPy, Matplotlib, OpenCV, Torchvision
-- **Environment**: Jupyter Notebooks for interactive experimentation
+- **Environment**: Jupyter Notebooks and Google Colab in VSCode
+
+## 👁️ Experiment Tracking
+
+All training runs are tracked with **[Weights & Biases (W&B)](https://wandb.ai/)**, which provides real-time logging of metrics (loss, accuracy, learning rate), interactive dashboards, and easy comparison across runs. Each notebook initializes a W&B run and logs training/validation/test metrics per epoch.
 
 ## 🖥️ Training Platform
 
