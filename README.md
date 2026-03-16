@@ -15,7 +15,7 @@ The projects in this repository cover a wide spectrum of Deep Learning concepts,
 ## 🖥️ Training Platform
 
 To handle heavy training workloads, I leverage free GPU acceleration from:
-- **[Kaggle](https://www.kaggle.com/)**: Primary training environment with ~30 hours of free GPU access per month.
+- **[Kaggle](https://www.kaggle.com/)**: Primary training environment with ~30 hours of free GPU access per week.
 - **[Lightning AI](https://lightning.ai/)**: Cloud-based compute using ~80 free hours for scalable experiments.
 
 ## 📖 Learning Resources
