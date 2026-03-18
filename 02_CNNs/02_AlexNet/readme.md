@@ -24,4 +24,8 @@ The modern version, used in standard libraries like PyTorch's `torchvision`, sim
 ![AlexNet Modern Architecture](./AlexNet.png)
 
 ## Implementation
-You can find the modern implementation in the Jupyter Notebook: [AlexNet.ipynb](./AlexNet.ipynb)
+The implementation in [AlexNet.ipynb](./AlexNet.ipynb) has been significantly updated to more closely reflect the characteristics of the original 2012 paper:
+
+- **Optimizer**: Switched from AdamW back to **SGD with Momentum (0.9)** and **Weight Decay (5e-4)**.
+- **Normalization**: Restored **Local Response Normalization (LRN)** layers after the first two convolutional blocks.
+- **Scheduler**: Implemented **ReduceLROnPlateau** to automate the original paper's heuristic of dividing the learning rate by 10 whenever validation error stops improving.
