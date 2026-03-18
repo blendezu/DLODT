@@ -138,6 +138,8 @@ cython_debug/
 .vscode/
 
 # data
-vision_transformer/data
+**/data/
+02_CNNs/02_AlexNet/Data
+02_CNNs/02_AlexNet/wandb
 
 .DS_Store
