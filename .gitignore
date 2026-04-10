@@ -142,6 +142,12 @@ cython_debug/
 02_CNNs/02_AlexNet/Data
 02_CNNs/02_AlexNet/wandb
 
+02_CNNs/05_GoogLeNet/Data
+02_CNNs/05_GoogLeNet/wandb
+
+02_CNNs/06_ResNet/Data
+02_CNNs/06_ResNet/wandb
+
 *.pth
 
 .DS_Store
